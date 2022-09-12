@@ -1,6 +1,6 @@
-# CV base
+# CV 
 
-Podstawa projektu do pobrania. Pełen tutorial z opisem na blogu Fly Nerd: CV w HTML / CSS
+A project created using a tutorial by Ritaly: https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-krok-po-kroku.html
 
 ### Zakres
 
