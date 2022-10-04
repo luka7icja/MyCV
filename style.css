@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 1.8em;
   margin-bottom: 1.8em;
   font-family: 'Raleway', sans-serif;
@@ -52,6 +52,10 @@ h3 {
 	text-transform: uppercase;
 	color: #509e98;
 }
+
+/* p {
+	color: grey;
+}*/
 
 a {
   color: black;
