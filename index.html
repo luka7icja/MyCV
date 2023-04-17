@@ -7,63 +7,111 @@
 		<meta name="author" content="Alicja Łuka">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
 		<header>
 			<div>
-				<img src="img\profilowe2.jpg" />
+				<img src="img\profilowe.jpg" />
 			</div>
 			<h1>Alicja Łuka</h1>
+            <subtitle>Software Tester</subtitle>
 			<section>
-                <p style="text-align: justify">Hello, I'm glad you got here! Here's a version of my CV that I made to practice my HTML, CSS and git skills.</p>
-                <p style="text-align: justify">I enjoy software testing because it engages my key strengths: <strong>scientific thinking, analytical approach</strong> and <strong>empathy</strong>. After getting the ISTQB certificate, I've been practicing coding and automation which is also fun!</p> 
-                <p style="text-align: justify">I have a degree in cognitive science and psychology. Thanks to my hands-on experience in IT recruitment and HR, I know the reality of developers and QA engineers' work.</p>
+                <p style="text-align: justify">I enjoy QA because it engages my key strengths: <strong>scientific thinking, analytical approach</strong> and <strong>empathy</strong>.
+                    I have gained knowledge about testing through my <strong>ISTQB</strong> certification, completion of a commercial course, hands-on experience during an internship, and freelance testing on uTest.
+                    <br><br> I am experienced in working fully remote in an agile environment and using <strong>English </strong> for daily communication. I have a good command of <strong>German</strong> and I am eager to use this language in my future professional endeavors.
+                    </p> 
+            </section>
+            <section class="contact">
+                <p>
+                <a href="https://www.linkedin.com/in/alicjaluka" class="fa fa-linkedin"></a>
+                <a href="https://github.com/luka7icja" class="fa fa-github"></a>
+                <a class="fa fa-phone"></a> +48 881 755 889
+                <a class="fa fa-envelope"></a> alicja_luka@op.pl
+                </p>
             </section>
 		</header>
 		<main>
-			<!--Education -->
+
+			<!-- Experience -->
 			<section>
-				<h3>Education</h3>
+				<h3>Experience</h3>
 				<article class = 'experience_item'>
 				<div class='title'>
-				QA Engineer Training
+				QA Intern
 				<br>
-				<span>Sep 2022 - Dec 2022</span><br>
+				<span>Sep 2022 - Feb 2023</span><br>
 				<a href="https://www.a1qa.com/">a1qa</a>
 				</div>
 				<div class = 'description'>
 				<p>
-				The training consisted of:
+				The internship consisted of:
 				<ul>
-					<li>daily meetings with a mentor</li>
 					<li>executing test tasks - testing one application weekly</li>
 					<li>executing technical tasks - technical literacy training</li>
-					<li>practical & theoretical exams</li>
-				</ul>
-				...and covered the following topics:
-				</p>
+				    <li>daily meetings with a mentor</li>
+                    <li>exams on the following topics:</li> </ul>
 				<ol>
 						<li>Collecting all necessary information before testing</li>
-						<li>Writing correct bug reports</li>
-						<li>Writing different kinds test documentation</li>
+						<li>Creating clear and informative bug reports</li>
+						<li>Writing different kinds of test documentation</li>
 						<li>Choosing and preparing a testing strategy</li>
-						<li>Implementing test design strategies (boundary testing, equivalence partitioning)</li>
-						<li>Applying different testing approaches</li>
-						<li>Using simple and advanced search in Jira</li>
-						<li>Writing a quality report using HTML and CSS</li>
-						<li>Technical literacy:</li>
-						<ul>
-							<li>Virtual Machine, shared folders, hot/cold snapshots</li>
-							<li>Terminal console and basic commands</li>
-							<li>MAC address, IP address (what they are used for, where to find them)</li>
-							<li>Cookies, cache and the difference between them</li>
-							<li>Developer tools</li>
-						</ul>
-						
+						<li>Communication with the PM and the customer</li>
+						<li>Jira: using advanced search, operations on issues, creating dashboards</li>
+                        <li>Wirking with Test Rail</li>
+                        <li>Defect validation</li>
+						<li>Writing quality reports using HTML and CSS</li>
+						<li>Technical literacy (SQL, virtualization, Windows command line, Remote Desktop Connection, services, Linux commands, developer tools, and more)</li>
 				</ol>
 				</div>
+				</article>                
+				<article class = 'experience_item'>
+				<div class='title'>
+				Freelance Tester
+				<br>
+				<span>Aug 2022 - now</span><br>
+                <a href="https://www.utest.com/about-us">uTest</a>
+				</div>
+				<div class = 'description'>
+				<p style="text-align: justify">
+				I take my first steps as a tester and learn with the <a href="https://www.utest.com/academy">uTest Academy</a>.
+				</p>
+				</div>
 				</article>
+				<article class = 'experience_item'>
+				<div class='title'>
+				IT Talent Sourcer
+				<br>
+				<span>Jul 2021 - May 2022</span><br>
+				<a href="https://www.digiteum.com/">Digiteum LCC</a>
+				</div>
+				<div class = 'description'>
+				<p style="text-align: justify">
+				I explored multiple HR and IT areas, focusing on sourcing and recruiting IT engineers, QA specialists and sales experts. 
+                <br>I searched for new talents, conducted interviews and worked closely with Recruiters, Managers, and Engineers.
+				</p>
+				</div>
+				</article>
+				<article class = 'experience_item'>
+				<div class='title'>
+				Research Study Assistant
+				<br>
+				<span>Apr 2017 - Dec 2022</span><br>
+                <a href="https://www.umk.pl/en/">Nicolaus Copernicus University</a>
+				</div>
+				<div class = 'description'>
+				<p style="text-align: justify">
+				I co-designed scientific research projects in management and psychology, helped to carry them out, 
+				analyzed the data and co-created scientific publications based on them.
+				</p>
+				</div>
+				</article>
+			</section>	
+			<!--Education -->
+			<section>
+				<h3>Education</h3>
+
 				<article class='experience_item'>
 				<div class='title'>
 				Software Testing with Automation
@@ -82,9 +130,9 @@
 						<li>Selenium WebDriver - 8h</li>
 						<li>Test automation in Java - 16h</li>
 					</ol>
-				<p>
+				<p style="text-align: justify">
 				Each module included lectures, practical tasks, homework and individual consultation.
-				</br>To graduate from the course, participants had to submit <a href="https://github.com/luka7icja/selenium-repo1">a project of test automation in Java</a>.
+				<br>To graduate from the course, participants had to submit <a href="https://github.com/luka7icja/selenium-repo1">a project of test automation in Java</a>.
 				</p>	
 					</div>
 				</article>
@@ -93,7 +141,7 @@
 				Psychology - MA
 				<br>
 				<span>Oct 2016 - July 2021</span><br>
-				Nicolaus Copernicus University
+				<a href="https://www.umk.pl/en/">Nicolaus Copernicus University</a>
 				</div>
 				<div class="description">
 				<p>
@@ -103,65 +151,19 @@
 				</article>
 				<article class='experience_item'>
 				<div class='title'>
-				Cognitive Science - BA and MA
+				Cognitive Science - BA, MA
 				<br>
 				<span>Oct 2013 - Jul 2018</span><br>
-				Softie
+				<a href="https://www.umk.pl/en/">Nicolaus Copernicus University</a>
 				</div>
 				<div class="description">
-				<p>
-				My both empirical research projects (BA and MA) concerned topics I'm fascinated by: cognitive reflection and decision making. 
-				My MA thesis was chosen the best MA thesis in cognitive science at NCU in 2018.
+				<p style="text-align: justify">
+				My both empirical research projects concerned topics I'm fascinated by: cognitive reflection and decision making. 
+				My MA thesis was chosen the best in Cognitive Science at NCU in 2018.
 				</p>	
 					</div>
 				</article>
-			</section>
-			<!-- Experience -->
-			<section>
-				<h3>Experience</h3>
-				<article class = 'experience_item'>
-				<div class='title'>
-				Freelance Tester
-				<br>
-				<span>Aug 2022 - now</span><br>
-				uTest
-				</div>
-				<div class = 'description'>
-				<p>
-				I take my first steps as a tester and learn best practices on a platform that commissions individual tests of websites, 
-				services and applications. On my way to graduate from the <a href="https://www.utest.com/academy">uTest Academy</a>.
-				</p>
-				</div>
-				</article>
-				<article class = 'experience_item'>
-				<div class='title'>
-				IT Talent Sourcer
-				<br>
-				<span>Jul 2021 - May 2022</span><br>
-				Digiteum LLC
-				</div>
-				<div class = 'description'>
-				<p>
-				I explored multiple HR and IT areas, focusing on sourcing and recruiting IT engineers, QA specialists and sales experts. 
-				I searched for new talents using different platforms, conducted interviews and worked closely with different internal teams — Recruiters, CEOs, Sales, and technical teams.
-				</p>
-				</div>
-				</article>
-				<article class = 'experience_item'>
-				<div class='title'>
-				Research Study Assistant
-				<br>
-				<span>Apr 2017 - Sep 2021</span><br>
-				Nicolaus Copernicus University
-				</div>
-				<div class = 'description'>
-				<p>
-				I co-designed scientific research projects in management and psychology, helped to carry them out, 
-				analyzed the received data and co-created scientific publications based on them.
-				</p>
-				</div>
-				</article>
-			</section>	
+			</section>            
 			<!-- Skills ... -->
 			<section>
 				<h3>Skills</h3>
@@ -171,14 +173,17 @@
 					IT:
 					</div>
 					<ul>
-						<li>ISTQB Certified Tester Foundation Level</li>
-						<li>Java</li>
-						<li>Selenium</li>
-						<li>SQL</li>
-						<li>HTML & CSS</li>
-						<li>Postman API</li>
-						<li>SoapUI</li>
-						<li>Agile methodologies</li>
+						<li><b>ISTQB Certificate</b> - Foundation Level</li>
+                        <li><b>Agile methodologies</b> - theory and practice</li>
+						<li><b>Java</b> - beginner projects</li>
+						<li><b>Selenium IDE</b> - beginner projects</li>
+                        <li><b>Selenium WebDriver</b> - beginner projects</li>
+						<li><b>HTML & CSS</b> - QA reports and this CV</li>
+                        <li><b>Virtual machines</b> - creating and using in testing</li>
+                        <li><b>Windows commands</b> - working with files, network and the system</li>
+                        <li><b>Linux</b> - ability to operate</li>
+                        <li><b>SQL</b> - learning solo</li>
+						<li><b>Postman API</b> - learning solo</li>
 					</ul>
 				</div>
 				<div class='column'>
@@ -186,15 +191,15 @@
 					Languages:
 					</div>
 					<ul>
-						<li><img src="https://flagcdn.com/20x15/gb.png" alt="English">: C1</li>
-						<li><img src="https://flagcdn.com/20x15/de.png" alt="German">: B2</li>
-						<li><img src="https://flagcdn.com/20x15/pt.png" alt="Portuguese">: A1</li>
-						<li><img src="https://flagcdn.com/20x15/pl.png" alt="Polish">: Native</li>
+						<li><img src="https://flagcdn.com/20x15/gb.png" alt="English"> C1 - used daily</li>
+						<li><img src="https://flagcdn.com/20x15/de.png" alt="German"> B2 - good in speech</li>
+						<li><img src="https://flagcdn.com/20x15/pt.png" alt="Portuguese"> A1 - learning solo</li>
+						<li><img src="https://flagcdn.com/20x15/pl.png" alt="Polish"> Native</li>
 					</ul>
 				</div>
 				<div class='column'>
 					<div class='title'>
-					Talents:
+					Gallup Talents:
 					</div>
 						<ul>
 							<li>analyzing</li>
@@ -208,9 +213,12 @@
 			</section>
 		</main>
 		<footer>
-            <p>Created by Alicja Łuka, 2022 </p>
-            <p>Check my code on <a href="https://github.com/luka7icja">GitHub</a></p>
-			<p>See my recommendations and contact me on <a href="https://www.linkedin.com/in/alicjaluka">LinkedIn</a></p>
-		</footer>
+            <section>
+            <p>I prepared this CV in HTML and CSS. See it as a <a href="https://luka7icja.github.io/MyCV/" style="color: white">website</a>.
+            </p>
+            <p style="text-align: justify; font-size: 10px">In accordance with art. 6 (1) a and b. Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) hereinafter ‘GDPR’. I agree to have: my personal data, education and employment history proceeded for the purposes of current and future recruitment processes.
+            </p>
+        </section>
+            </footer>
 	</body>
 </html>
